@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 export default function NavbarView({ updateQuery, resetQuerry }) {
   return (
     <div className="navbar">
-      <Link className="navbar__item" to={'/'}>
+      <Link className="navbar__item" to={'/artic-art-search-app'}>
         Gallery
       </Link>
       <SearchInput updateQuery={updateQuery} resetQuerry={resetQuerry} />

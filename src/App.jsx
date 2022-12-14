@@ -70,7 +70,7 @@ export default function App() {
       <NavbarView updateQuery={updateQuery} resetQuerry={resetQuerry} />
       <Routes>
         <Route
-          path="/"
+          path="/artic-art-search-app"
           element={
             loading ? (
               <LoadingSpinner />
@@ -86,7 +86,7 @@ export default function App() {
             )
           }
         />
-        <Route path="/artwork/:artworkId" element={<ArtworkView />} />
+        <Route path="/artic-art-search-app/artwork/:artworkId" element={<ArtworkView />} />
       </Routes>
       <FooterView />
     </div>

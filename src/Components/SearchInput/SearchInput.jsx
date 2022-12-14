@@ -14,7 +14,7 @@ export default function SearchInput({ updateQuery, resetQuerry }) {
   const handleSearch = (e) => {
     e.preventDefault();
     updateQuery(searchQuery);
-    navigate('/');
+    navigate('/artic-art-search-app');
   };
 
   const handleReset = (e) => {

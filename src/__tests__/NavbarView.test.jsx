@@ -12,7 +12,7 @@ describe('<NavbarView />', () => {
       </BrowserRouter>
     );
     expect(screen.getByText('Gallery')).toBeInTheDocument();
-    expect(screen.getByText('Gallery')).toHaveAttribute('href', '/');
+    expect(screen.getByText('Gallery')).toHaveAttribute('href', '/artic-art-search-app');
   });
 
   test('renders <SearchInput />', () => {
