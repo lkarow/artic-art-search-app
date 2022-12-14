@@ -1,0 +1,35 @@
+.artwork-card {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.artwork-card:hover {
+  transform: scale(1.15);
+}
+
+.artwork-card__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.artwork-card__title {
+  font-weight: 700;
+}
+
+.artwork-card p {
+  margin-bottom: 0;
+}
+
+.artwork-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.artwork-card a:hover {
+  color: inherit;
+}

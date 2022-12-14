@@ -1,0 +1,75 @@
+.artwork-view {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 50px;
+  text-align: center;
+}
+
+.artwork-view__image {
+  max-width: 50vw;
+  height: 100%;
+}
+
+.artwork-view__title {
+  font-size: calc(1.375rem + 2vw);
+  font-weight: 700;
+}
+
+.artwork-view__artist {
+  font-size: calc(1.375rem + 1vw);
+}
+
+.artwork-view__class,
+.artwork-view__date {
+  font-size: calc(1.375rem);
+  font-style: italic;
+  font-weight: 300;
+}
+
+.artwork-view__exhibition-history {
+  font-size: calc(1.375rem);
+  font-weight: 300;
+}
+
+.artwork-view__description p {
+  margin: 10px 0 10px 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .artwork-view {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+  }
+
+  .artwork-view__image {
+    margin: 0 auto;
+    max-width: 80vw;
+  }
+
+  .artwork-view__description {
+    margin-top: 25px;
+  }
+}
+
+.back-button {
+  border: none;
+  background-color: var(--highlight-color);
+  color: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  margin-top: 25px;
+  font-size: calc(1.2rem);
+  font-weight: 700;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  filter: brightness(0.92);
+}
+
+.back-button:active {
+  transform: scale(0.96);
+}

@@ -1,0 +1,30 @@
+.pagination {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  max-width: 100%;
+  margin: 50px;
+}
+
+.pagination__item {
+  height: 40px;
+  width: 40px;
+  min-width: fit-content;
+  padding: 10px;
+  border-left: 0.5px solid var(--light-color);
+  border-right: 0.5px solid var(--light-color);
+  text-align: center;
+}
+
+.pagination__active {
+  background-color: var(--highlight-color);
+  color: #fff;
+  font-weight: 700;
+}
+
+.pagination__item:hover {
+  background-color: var(--highlight-color);
+  filter: brightness(1.15);
+  color: #fff;
+  cursor: pointer;
+}

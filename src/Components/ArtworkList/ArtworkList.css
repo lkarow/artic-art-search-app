@@ -1,0 +1,7 @@
+.artwork-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: calc(8px + 0.25vw);
+  margin: 50px;
+}
