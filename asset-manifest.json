@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/artic-art-search-app/static/css/main.352d382a.css",
+    "main.js": "/artic-art-search-app/static/js/main.8f7ff357.js",
+    "index.html": "/artic-art-search-app/index.html",
+    "main.352d382a.css.map": "/artic-art-search-app/static/css/main.352d382a.css.map",
+    "main.8f7ff357.js.map": "/artic-art-search-app/static/js/main.8f7ff357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.352d382a.css",
+    "static/js/main.8f7ff357.js"
+  ]
+}
